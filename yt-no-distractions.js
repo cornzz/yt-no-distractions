@@ -11,4 +11,4 @@ const observer = new MutationObserver(() => {
     if (!targets.length) observer.disconnect()
 })
 
-observer.observe(document.getElementById('content'), { subtree: true, childList: true })
+observer.observe(document.body, { subtree: true, childList: true })
