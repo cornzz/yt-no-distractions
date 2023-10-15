@@ -1,6 +1,6 @@
 console.log('loaded yt-no-distractions.')
 
-let targets = ['#masthead-container', '.html5-endscreen', '#columns']
+let targets = ['#masthead-container', '.html5-endscreen', '#below', '#secondary']
 
 const observer = new MutationObserver(() => {
     document.querySelectorAll(targets.join(', ')).forEach((element) => {
